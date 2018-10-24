@@ -1,0 +1,29 @@
+{
+  "name": "mongo_scraper",
+  "version": "1.0.0",
+  "description": "Mongo Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niravsen/Mongo_Scraper.git"
+  },
+  "author": "Nirav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niravsen/Mongo_Scraper/issues"
+  },
+  "homepage": "https://github.com/niravsen/Mongo_Scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "logger": "0.0.1",
+    "mongoose": "^5.3.4",
+    "request": "^2.88.0"
+  }
+}
