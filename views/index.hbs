@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+    h1{
+      font-family: 'Fascinate Inline', cursive;
+      font-size: 75px;
+      text-align: center;
+      background-color: lightblue;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      border: 2px solid black;
+    }
+
+    h4{
+      text-align: center;
+    }
+
+    p{
+      font-size: 20px;
+    }
+
+    #note {
+      float: right;
+      width: 30%;
+      padding-right: 60%;
+    }
+
+  </style>
+    <div id="wrapper">
+      <h1>Huffington Scraper</h1>
+      <h4>News articles from Huffington Post.</h>
+      <br/>
+        <p><a class="btn btn-info" href="/scrape">Get new articles</a> <a class="btn btn-primary" href="/saved">View saved articles</a></p>
+      <br/>
+      <div id="articles">
+        <p class="alert alert-warning"><em>Click on an article below to comment and save</em>.</p>
+      </div>
+      <p>Your clicked news article will appear here for commenting and saving</p>
+      <div id="note">
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
